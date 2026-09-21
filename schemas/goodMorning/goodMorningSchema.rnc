@@ -13,7 +13,7 @@ lg = element lg {ln+}
 ln = element ln {n, mixed{placeName*| place*| motif?}}
 n = attribute n {xsd:integer}
 placeName = element placeName{ref, text}
-ref = attribute ref {text}
+ref = attribute ref {"NYC-Harlem"|"NYC-Man"|"NYC-PennSt"|"PR"|"Cuba"|"Ha"|"Ja"|"NYC"|"Ga"|"Fla"|"La"|"NYC-Brook"|"NYC-Bronx"}
 place = element place {ref, text}
 motif = element motif {text}
 
