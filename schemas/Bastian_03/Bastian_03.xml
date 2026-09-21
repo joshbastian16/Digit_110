@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/Bastian_3Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Bastian_3SchemaFixed.rnc" type="application/relax-ng-compact-syntax"?>
 <poem>
-    <!--<metadata>
-        <title>BALLAD OF BOOKER T.</title>
-        <author>by Langston Hughes</author>
-        <coder>Joshua Bastian</coder>
-        <date_Encoded>2026-10-09</date_Encoded>
-    </metadata>-->
-
+    <startInfo>
+        <title ref = "Ballad of Booker T."></title>
+        <author ref = "Langston Hughes"></author>
+        <coder ref = "Joshua Bastian"></coder>
+        <date_Encoded ref = "2026-10-09"></date_Encoded>
+    </startInfo>
+<lines>
     <line num="1">Booker T. </line>
     <line num="2">Was a practical <rhyme connection="land">man.</rhyme></line>
     <line num="3">He said, Till the soil </line>
     <line num="4">And learn from the <rhyme connection="man">land.</rhyme></line>
-    <!--<Seal location="lines 5-10" color="red">Seal of the Library of congress</Seal>-->
+    <Seal location="lines 5-10" color="red">Seal of the Library of congress</Seal>
     <line num="5">Let down your bucket </line>
     <line num="6">Where you <rhyme connection="afar">are.</rhyme></line>
     <line num="7">Your fate is here </line>
@@ -48,7 +48,7 @@
     <line num="37">If it be not rooted </line>
     <line num="38">In solid <rhyme connection="down">ground.</rhyme></line>
     <line num="39">So, being a far-seeing </line>
-   <!-- <metadata>Transcript Page 2 of 2</metadata>-->
+    <pageBreak reason = "Transcript Page 2 of 2"></pageBreak>
     <line num="40">Education and Outreach Division </line>
     <line num="41">Practical <rhyme connection="hand">man,</rhyme></line>
     <line num="42">He said, Train your head,</line>
@@ -57,12 +57,12 @@
     <line num="45">And not afar, </line>
     <line num="46">So let down your bucket</line>
     <line num="47"> Where you <rhyme connection="here">are.</rhyme></line>
-
-    <!-- <metadata>
-       <author>LANGSTON HUGHES</author>
+</lines>
+   <metadata>
+       <creator maker = "Lanngston Hughes"></creator>
        Final Draft, 
-       <location>Hollow Hills Farm, Monterey, California</location>, 
-       <date ymd="1941-06-01">June 1, 1941</date> 
+       <place ref = "Hollow Hills Farm, Monterey, California"></place> 
+       <date ymd="1941-06-01"></date> 
        Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941. (Langston           Hughes Collection) Manuscript Division, Library of Congress, Washington, D.C. 
-       </metadata>-->
+       </metadata>
 </poem>

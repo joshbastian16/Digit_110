@@ -1,0 +1,29 @@
+start = poem
+poem = element poem {startInfo, lines, metadata}
+
+startInfo = element startInfo {title, author, coder, date_Encoded}
+title = element title {ref, empty}
+author = element author {ref, empty}
+coder = element coder {ref, empty}
+date_Encoded = element date_Encoded {ref, empty}
+ref = attribute ref {"Ballad of Booker T." | "Langston Hughes"| "Joshua Bastian" | "2026-10-09"| "Hollow Hills Farm, Monterey, California"}
+
+
+lines = element lines {(line|Seal|pageBreak)+}
+line = element line {num, text, rhyme*}
+num = attribute num {xsd:integer}
+rhyme = element rhyme {connection, text}
+connection = attribute connection {text}
+Seal = element Seal {location, color, text}
+location = attribute location {"lines 5-10"}
+color = attribute color {"red"}
+
+pageBreak = element pageBreak {reason, empty}
+reason = attribute reason {"Transcript Page 2 of 2"}
+
+metadata = element metadata {creator, text ,place, date, text}
+creator = element creator {maker}
+maker = attribute maker {"Lanngston Hughes"}
+place = element place {ref, empty}
+date = element date {ymd}
+ymd = attribute ymd {"1941-06-01"}
