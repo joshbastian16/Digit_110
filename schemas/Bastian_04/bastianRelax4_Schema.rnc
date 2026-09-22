@@ -1,0 +1,22 @@
+start = song
+
+song = element song {info, lyrics, empty}
+
+info = element info {title, artist, releaseDate, coder, dateEncoded}
+title = element title {xmlid, empty}
+xmlid = attribute xmlid {xsd:ID}
+artist = element artist {ref, empty}
+releaseDate = element releaseDate {date, empty}
+coder = element coder {ref, empty} 
+dateEncoded = element dateEncoded {date, empty}
+date = attribute date {xsd:date}
+ref = attribute ref {"Carlyn"|"Joshua Bastian"}
+
+lyrics = element lyrics {mixed {(verseOne|pre-Chorus|chorus|verseTwo|bridge)+}}
+verseOne = element verseOne {line+, empty}
+line = element line {num, text}
+num = attribute num {xsd:integer}
+pre-Chorus = element pre-Chorus {line+, empty}
+chorus = element chorus {line+, empty}
+verseTwo = element verseTwo {line+, empty}
+bridge = element bridge {line+, empty}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bastianRelax4_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+
+    <info>
+        <title xmlid="DOG"/>
+        <artist ref="Carlyn"/>
+        <releaseDate date="2025-05-23"/>
+        <coder ref="Joshua Bastian"/>
+        <dateEncoded date="2026-09-22"/>
+    </info>
+
+    <lyrics>
+        <verseOne>
+            <line num="1">I think they're starting to notice</line>
+            <line num="2">The way they look and look away</line>
+            <line num="3">We're getting nauseous as we sway with our bodies on display</line>
+            <line num="4">Sick and swapping DNA</line>
+        </verseOne>
+
+        <pre-Chorus>
+            <line num="5">I'm aware, and I'm ashamed</line>
+            <line num="6">I say a prayer, and it's in vain</line>
+            <line num="7">Something rare is something strange</line>
+            <line num="8">I could spare you, I could change</line>
+            <line num="9">You're a dog, and I'm the same</line>
+        </pre-Chorus>
+
+        <chorus>
+            <line num="10">You ripped my dress, I dropped my glass</line>
+            <line num="11">You didn't notice, and you stepped where it was wet</line>
+            <line num="12">The mess below us pulled us in and ripped your skin</line>
+            <line num="13">You said it's painless, and you grinned</line>
+            <line num="14">Needles and pins</line>
+            <line num="15">It's hard to tango with a limp</line>
+        </chorus>
+
+        <verseTwo>
+            <line num="16">I think they're starting to loathе us</line>
+            <line num="17">They only wish that they could say</line>
+            <line num="18">How they fеlt at their closest</line>
+            <line num="19">Was even half of what we weigh</line>
+        </verseTwo>
+
+        <pre-Chorus>
+            <line num="20">I'm aware, and I'm ashamed</line>
+            <line num="21">I say a prayer, and it's in vain</line>
+            <line num="22">Something rare is something strange</line>
+            <line num="23">I could spare you, I could change</line>
+            <line num="24">But you're a dog, and I'm the same</line>
+        </pre-Chorus>
+
+        <chorus>
+            <line num="25">You ripped my dress, I dropped my glass</line>
+            <line num="26">You didn't notice, and you stepped where it was wet</line>
+            <line num="27">The mess below us pulled us in and ripped your skin</line>
+            <line num="28">You said it's painless, and you grinned</line>
+            <line num="29">Needles and pins</line>
+            <line num="30">It's hard to tango with a limp</line>
+        </chorus>
+
+        <bridge>
+            <line num="31">You bled</line>
+            <line num="32">You bled, you bled</line>
+            <line num="33">And for the first time, I understood red, red, red</line>
+            <line num="34">You bled</line>
+            <line num="35">You bled, you bled</line>
+            <line num="36">And for the first time, I saw red</line>
+            <line num="37">For the first time, I saw red</line>
+            <line num="38">Ooh</line>
+            <line num="39">Ooh</line>
+        </bridge>
+
+        <chorus>
+            <line num="40">You ripped my dress, I dropped my glass</line>
+            <line num="41">You didn't notice, and you stepped where it was wet</line>
+            <line num="42">The mess below us pulled us in and ripped your skin</line>
+            <line num="43">You said it's painless, and you grinned</line>
+            <line num="44">Needles and pins</line>
+            <line num="45">It's hard to tango with a limp</line>
+        </chorus>
+    </lyrics>
+
+</song>
