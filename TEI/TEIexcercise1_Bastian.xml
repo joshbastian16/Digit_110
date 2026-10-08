@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's Calender</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mary Behrend's note's and drawing in a calendar</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <figure>
+               <dateline>March 17, 1909. Wednesday, St. Patricks day </dateline>
+               <figDesc>Stylised way of writing the date. Big green "m" stamp for march to go along
+                  with St. Paddy's. Snakes go around the date.</figDesc>
+               <p style="black">Saint Patrick was a useful saint</p>
+               <p>He freightened all the snakes away-</p>
+               <p>I wish he'd try his art on <emph>smoke</emph></p>
+               <p>Around the Hammermill some day!</p>
+               <figDesc>3-leaf clovers surrond the text and below said text is a rendetion of the
+                  Hammermill factory. The building has a falt roofed part, then a sloped roof,then
+                  two smokestacks that billow smoke, and finally one more flat roofed
+                  area.</figDesc>
+               <p style="red">The Hammermill <unclear reason="illegible"/>!</p>
+            </figure>
+         </div>
+         <div>
+            <figure>
+               <dateline>March 12, 1909. Friday</dateline>
+               <figDesc>Stylised red stamp for the "m" of march</figDesc>
+               <p><persName>Molly</persName> on snowshoes That Mr. Weir Got. Pretty Picture Is it
+                  Not?</p>
+               <figDesc>A rendition of Marry Behrend with rosy cheeks, some sort of headwear,
+                  gloves, a jacket, and massive cartoonish snow shoes.</figDesc>
+               <p><unclear reason="illegible"></unclear></p>
+            </figure>
+         </div>
+      </body>
+   </text>
+</TEI>
