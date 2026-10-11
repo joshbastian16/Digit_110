@@ -9,27 +9,42 @@
             <title>Mary Behrend's Calender</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Mary Behrend's Personal Calendar.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Mary Behrend's note's and drawing in a calendar</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Erie, Pennsylvania</settlement>
+                  <repository>Lilley Library</repository>
+                  <idno type="calendar">Friendship Calendar CO.</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Mary "Moly" Behrend</author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div n= "1" style="Callendar">
 <!--For both calendars I wanted to describe the drawings that Mary Behrend did to the best that I coudld. I used <p> to include the notes
     that she put down on the paper.-->
+            <note type="copyright">COPYRIGHT <date when="1908">1908, BY FRIENDSHIP CALENDAR CO. NEW BRITAIN CONN.</date></note>
             <figure>
-              
+               <metamark> </metamark>
                <dateline>March 17, 1909. Wednesday, St. Patricks day </dateline>
-               <figDesc>Stylised way of writing the date. Big green "m" stamp for march to go along
+               <figDesc>Stylised way of writing the date. Big green "m" for march to go along
                   with St. Paddy's. Snakes go around the date.</figDesc>
-               <p style="black">Saint Patrick was a useful saint</p>
-               <p>He freightened all the snakes away-</p>
-               <p>I wish he'd try his art on <emph>smoke</emph></p>
-               <p>Around the Hammermill some day!</p>
+               <lg>
+                  <l style="black">SAINT PATRICK WAS A USEFUL SAINT</l>
+               <l>HE FREIGHTENED ALL THE SNAKES AWAY-</l>
+               <l>I WISH HE'D TRY HIS ART ON THE<emph style="underlined">SMOKE</emph></l>
+               <l>AROUND HAMMERMILL SOME DAY!</l>
+               </lg>
                <figDesc>3-leaf clovers surrond the text and below said text is a rendetion of the
                   Hammermill factory. The building has a falt roofed part, then a sloped roof,then
                   two smokestacks that billow smoke, and finally one more flat roofed
@@ -37,10 +52,11 @@
                <p style="red">The Hammermill <unclear reason="illegible"/>!</p>
             </figure>
          </div>
-         <div>
+         <div n="2" style = "Callendar">
+            <note type="copyright">COPYRIGHT <date when="1908">1908, BY FRIENDSHIP CALENDAR CO. NEW BRITAIN CONN.</date></note>
             <figure>
                <dateline>March 12, 1909. Friday</dateline>
-               <figDesc>Stylised red stamp for the "m" of march</figDesc>
+               <figDesc>Stylised red "m" for March</figDesc>
                <p><persName>Molly</persName> on snowshoes That Mr. Weir Got. Pretty Picture Is it
                   Not?</p>
                <figDesc>A rendition of Marry Behrend with rosy cheeks, some sort of headwear,
