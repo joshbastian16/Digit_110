@@ -62,22 +62,16 @@
         <moduleRef n="03" key="core" except="addrLine rb rt ruby stage"/>
         <moduleRef n="04" key="textstructure" except="epigraph"/>
         <moduleRef n="05" key="gaiji" except="unihanProp"/>
-        <moduleRef n="06" key="verse"/>
         <moduleRef n="07" key="drama" except="epilogue role roleDesc"/>
-        <moduleRef n="08" key="spoken" except="equipment"/>
         <moduleRef n="09" key="cmc"/>
         <moduleRef n="18" key="analysis"/>
-        <moduleRef n="10" key="dictionaries"/>
-        <moduleRef n="11" key="msdescription" except="accMat adminInfo musicNotation"/>
         <moduleRef n="12" key="transcr" except="addSpan zone"/>
-        <moduleRef n="13" key="textcrit" except="wit witDetail witEnd witStart witness"/>
         <moduleRef n="14" key="namesdates" except="affiliation age birth roleName"/>
         <moduleRef n="15" key="figures"/>
         <moduleRef n="16" key="corpus"/>
         <moduleRef n="17" key="linking"/>
         <moduleRef n="19" key="iso-fs"/>
         <moduleRef n="20" key="nets"/>
-        <moduleRef n="22" key="certainty"/>
         <moduleRef n="23" key="tagdocs"/>
       </schemaSpec>
     </body>
