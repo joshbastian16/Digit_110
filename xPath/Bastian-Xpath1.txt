@@ -1,0 +1,7 @@
+Question 1 Xpath Expression: //div[@type="panelGrp"] Output : 24 Items
+Question 2 Xpath Expression: //div[@type="panelGrp"]//cbml:panel Output : 58 Items
+Question 3 Xpath Expression 1: (//div[@type="panelGrp"])[2]  Expression 2: (//div[@type="panelGrp"])[2]//cbml:panel  Output: 2 Items
+Question 4 Xpath Experssion: //cbml:panel/@characters Output: Narrator and Jehova
+Question 5 Xpath Expression: //cbml:panel[@characters="#narrator"] Output : 52 Items
+Question 6 Xpath Expresison 1: //floatingText Output: 41 Items Xpath Expression 2: count(//cbml:panel[.//floatingText])Output: 27
+6 cont. I would guess anything in a floatingText element would be ubncontained by a speech bubble. It might be something like narration like telling the time and location of where a panel takes place.
