@@ -1,0 +1,12 @@
+1. Xpath //body/div[@type="historical_people"]
+2b. Xpath //body/div[@type="historical_people"]/* Children: histOrgs and histPersons
+2c. Xpath //body/div[@type="nature"]/* Children animals and plants. Xpath count(//div/*) count = 20
+3a. Xpath count(//list[@sortKey="animals"]/item) count = 69
+3b. Xpath //list[@sortKey="animals"]/item[last()] result = wren_crested
+3c. Xpath //list[@sortKey="plants"]/item[5] result = apple_tree
+3d. Xpath //list[@sortKey="plants"]/item[position() <= 6]
+4. The first Xpath expression //person/occupation[1], returns the first occupation of every person. The second Xpath eexpression (//person/occupation)[1], returns the first occupation of the first person.
+5a. Xpath count(//person) count 1552
+5b. Xpath //person[@sex] result 1393
+5c. Xpath count(//person[@sex]) div count(//person) *100 89.8% percent of the person elemets are encoded with the sex attribute.
+5d. Xpath count(//person[@sex="f"]) result 414. Xpath count(//person[@sex="f"]) div count(//person[@sex])*100 result 29.7% of the people encoded in this document are female.
