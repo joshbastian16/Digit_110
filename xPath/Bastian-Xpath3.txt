@@ -1,0 +1,15 @@
+1. //div/count(*) returns the amount of children that are in each div. Removing the count, shows everthing that those children are. //div/*/count(*) returns the number of children that are in the childen of each div. This works because count does just that, counts the number of things that are in whatever you point the expression at.
+2. max(//div/*/count(*)) returns 1112 min(//div/*/count(*)) returns 3
+3. //div[*/count(*) = max(//div/*/count(*))] finds the div type "historical_people" I wrote the expression with the challenge in mind already.
+4. distinct-values(//occupation/@type) 
+4b. count(distinct-values(//occupation/@type)) returns 15
+5. //occupation[@type='artist']
+5b. //person[occupation[@type='artist']]
+5c. //person[@sex = 'f'][occupation[@type='artist']]
+5d. //person[@sex = 'f'][occupation[@subtype='engraver']]
+5e. //person[occupation[@subtype='engraver']][birth/@when = '17'] they were Wim Finden
+5f. //person[occupation[@subtype='engraver']]/birth/@when
+5g pt1. sort(//person[occupation[@subtype = 'engraver']]/birth/@when ! string(.)) Earliest year was 1667
+5g pt2. min(sort(//person[occupation[@subtype = 'engraver']]/birth/@when ! string(.))) returns only the first date because it is the smallest number in each of the years that would be listed.
+6. //* ! name()
+6b. count(distinct-values(//* ! name ())) returns 78

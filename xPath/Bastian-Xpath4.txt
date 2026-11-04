@@ -1,0 +1,9 @@
+1. distinct-values(//cbml:panel/@characters) No it doesn't actually remove all the duplicates.
+2. distinct-values(//cbml:panel/@characters ! tokenize(.))
+3. //cbml:panel[contains(@characters,  "drkelly")] 5 instances of drkelly
+3b. //cbml:panel[starts-with(@characters,  "#narrator")] 3 times that the narrator is the first character in the panel.
+4. max(//cbml:balloon ! string-length(.)) the length was 215
+4b. //cbml:balloon[string-length(.) = max(//cbml:balloon ! string-length(.))]/@who longest speaker is Kaliman
+4c. //cbml:balloon[string-length(.) = min(//cbml:balloon ! string-length(.))]/@who shortest speaker is also Kaliman
+5. //note[contains(., "skull")]
+5b. The first expression searches the whole document while the second only searches inside only the current element.
